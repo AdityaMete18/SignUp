@@ -1,0 +1,119 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+body{
+    padding: 200px;
+    background-color: black;
+    padding-left: 250px;
+    font-family: "inter";
+
+}
+
+h1{
+    color: white;
+    margin-bottom: 40px;
+    font-size: 50px;
+}
+
+.name{
+   margin-bottom: 30px;
+     
+  
+}
+
+.name input{
+    width:90%;
+    background-color: black;
+    border:none;
+    border-bottom: 1px solid white;
+    font-size: large;
+    color: white;
+    outline: none;
+    
+   
+}
+
+.email{
+    margin-bottom: 30px;
+  
+}
+
+.email input{
+    width:90%;
+    background-color: black;
+    border:none;
+    border-bottom: 1px solid white;
+    font-size: large;
+    color: white;
+    outline: none;
+}
+
+.password{
+    margin-bottom: 30px;
+  
+}
+
+.password input{
+    width:90%;
+    background-color: black;
+    border:none;
+    border-bottom: 1px solid white;
+    font-size: large;
+    color: white;
+    outline: none;
+
+}
+
+.c_password{
+    margin-bottom: 30px;
+  
+}
+
+.c_password input{
+    width:90%;
+    background-color: black;
+    border:none;
+    border-bottom: 1px solid white;
+    font-size: large;
+    color: white;
+    outline: none;
+}
+
+.date{
+    margin-bottom: 30px;
+}
+
+.date input{
+    width:90%;
+    background-color: black;
+    border:none;
+    border-bottom: 1px solid white;
+    font-size: large;
+    color: white;
+    outline: none;
+}
+
+.what{
+    color: white;
+    font-size: large;
+}
+
+#employee{
+    margin-left: 20px;
+}
+
+.check{
+    color: white;
+    margin-top: 30px;
+    font-size: large;
+}
+
+button{
+    height: 30px;
+    width: 150px;
+    margin-top: 50px;;
+}

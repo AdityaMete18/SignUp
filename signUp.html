@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign UP</title>
+    <link rel="stylesheet" href="signUp.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <h1>SignUp</h1>
+    </header>
+    <main class="main">
+        <form>
+            <div class="name">
+                <label for="name"></label>
+                <input type="text" id="name" name="name" placeholder="Full Name" required>
+            </div>
+            <div class="email">
+                <label for="email"></label>
+                <input type="email" id="email" name="email" placeholder="Email" required>
+            </div>
+            <div class="password">
+                <label for="password"></label>
+                <input type="password" id="password" name="password" placeholder="Password" required>
+            </div>
+            <div class="c_password">
+                <label for="c password"></label>
+                <input type="password" id="c password" name="c password" placeholder="Conform Password" required>
+            </div>
+            <div class="date">
+                <label for="date"></label>
+                <input type="date" id="date" name="date" placeholder="MM/DD?YYYY" required>
+            </div>
+            <div class="what">
+                <input type="radio" id="student" name="what" required>
+                <label for="student">Student</label>
+                <input type="radio" id="employee" name="what" required>
+                <label for="employee">Employee</label>
+            </div>
+            <div class="check">
+                <input type="checkbox" id="check" required>
+                <label for="check">I agree all the Terms and condition</label>
+            </div>
+            <div class="button">
+                <button type="submit">SignUp</button>
+            </div>
+
+        </form>
+    </main>
+
+</body>
+
+</html>
